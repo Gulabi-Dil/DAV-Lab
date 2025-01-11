@@ -3,3 +3,5 @@ from sympy import *
 def Seq():
   return [x for x in range(1,101) if x%2==1]
 for n in Seq(): print(n, end=" ")
+s=sum([x for x in range(1,101) if x%2==0])
+print("\nSum of all even numbers in range = ",s)
