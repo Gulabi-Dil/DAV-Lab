@@ -1,3 +1,9 @@
+'''
+Question 1:
+Create a CSV file called “Movies.csv” with details of 10 movies- Movie Name, Language, Genre, Rating, Review.
+a. Read CSV file into a dataframe and find the movie with the highest rating.
+b. Write the details of all “Hindi movies into a file “HindiMovies.csv”.
+'''
 import pandas as pd
 import numpy as np
 
